@@ -95,6 +95,10 @@ img {
     width: 55%;
 }
 
+.guide-p {
+    font-style: italic;
+}
+
 .guide-img {
     border-radius: 0;
     height: 100%;
