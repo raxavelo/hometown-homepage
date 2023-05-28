@@ -1,0 +1,103 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("images/kosciol.jpeg");
+    background-size: cover;
+    background-position-y: center;
+    height: 400px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+
+#hero-title {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    background-color: #457B9D;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+#hero-subtitle {
+    font-size: 18px;
+    margin: 0;
+    background-color: #1D3557;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+.activities-section {
+    background-color: #F1FAEE;
+    color: #1D3557;
+    padding: 1rem 0;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    width: 300px;
+    padding: 2rem 0.5rem 0;
+}
+
+
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.guide-section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #A8DADC;
+    width: 400px;
+    margin: 50px auto;
+    border-bottom: solid 5px #457B9D;
+    border-radius: 5px;
+    color: #1D3557;
+}
+
+.guide-captions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.guide-img {
+    border-radius: 0;
+    height: 100%;
+    width: 40%;
+    border-radius: 5px;
+}
